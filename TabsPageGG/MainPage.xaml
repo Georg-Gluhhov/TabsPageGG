@@ -2,8 +2,23 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabsPageGG.MainPage">
-        <ContentPage Title="Tab 1" BackgroundColor="AntiqueWhite"/>
-    <ContentPage Title="Tab 2" BackgroundColor="DarkBlue"/>
-        <ContentPage Title="Tab 3" />
+    <ContentPage Title="Tab 1" BackgroundColor="LightBlue">
+        <StackLayout>
+        <Label TextColor="Black">Банкнота в 100 000 $ образца 1934 года является самой крупной выпущенной банкнотой. Она не получила широкого распространения и использовалась для различных операций между банками.</Label>
+            <Image Source="bank.jpg"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Image>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 2" BackgroundColor="DarkBlue">
+        <StackLayout>
+        <Label TextColor="White">Кости динозавров, выставленные в палеонтологических музеях мира - это на самом деле не кости. Строго говоря, это камни, так как костная ткань разрушилась миллионы лет назад, оставив после себя органический осадок. Под влиянием химических процессов, этот костный осадок с годами превратился в камень в форме костей.</Label>
+            <Image Source="rex.jpg"  HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Image>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Tab 3" Background="white" >
+        <StackLayout>
+        <Label TextColor="Black">Раз в год в Гондурасе наступает сезон рыбных дождей. Между маем и июлем в небе возникает темное облако, сверкают молнии, гремит гром, и 2–3 часа льет сильнейший дождь. Как только он прекращается, на земле остаются сотни живых рыб.</Label>
+        <Image Source="fish.jpg" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Image>
+        </StackLayout>
+    </ContentPage>
 
 </TabbedPage>
